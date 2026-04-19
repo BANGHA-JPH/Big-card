@@ -1,0 +1,25 @@
+{
+  "expo": {
+    "name": "Zita - Fresh Vegetables",
+    "slug": "zita-vegetables",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "platforms": ["ios", "android"],
+    "ios": {
+      "supportsTabletMode": true,
+      "bundleIdentifier": "com.zita.vegetables"
+    },
+    "android": {
+      "package": "com.zita.vegetables"
+    },
+    "plugins": [
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "Allow $(PRODUCT_NAME) to access your photos.",
+          "cameraPermission": "Allow $(PRODUCT_NAME) to access your camera."
+        }
+      ]
+    ]
+  }
+}
